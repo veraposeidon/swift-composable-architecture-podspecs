@@ -19,6 +19,7 @@ Pod::Spec.new do |spec|
   spec.source_files = "Sources/ComposableArchitectureMacros/**/*.swift"
   # except Documentation.docc
   spec.exclude_files = "Sources/ComposableArchitecture/Documentation.docc/**/*"
+  spec.exclude_files = "Sources/ComposableArchitectureMacros/Plugins.swift"
   spec.preserve_path = ["Sources/ComposableArchitectureMacros/macros/ComposableArchitectureMacros"]
   spec.pod_target_xcconfig = {
     'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/ComposableArchitecture/Sources/ComposableArchitectureMacros/macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
