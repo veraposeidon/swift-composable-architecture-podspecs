@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.osx.deployment_target = "10.15"
   spec.tvos.deployment_target = "13.0"
 
-  spec.source       = { :git => "https://github.com/verposeidon/swift-dependencies.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/veraposeidon/swift-dependencies.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/DependenciesMacros/**/*.swift"
   spec.preserve_paths = ["Sources/macros/DependenciesMacrosPlugin"]
   spec.pod_target_xcconfig = {
