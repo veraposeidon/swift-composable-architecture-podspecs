@@ -9,6 +9,8 @@ ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architec
 
 ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","Dependencies","swift-dependencies","https://github.com/pointfreeco/swift-dependencies","1.2.0"
 
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","DependenciesMacros","swift-dependencies","https://github.com/pointfreeco/swift-dependencies","1.2.0"
+
 ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","IdentifiedCollections","swift-identified-collections","https://github.com/pointfreeco/swift-identified-collections","1.0.0"
 
 ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","OrderedCollections","swift-collections","https://github.com/apple/swift-collections","1.0.6"

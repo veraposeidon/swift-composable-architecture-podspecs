@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.pointfree.co/collections/composable-architecture"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
   spec.license      = { type: 'MIT', file: 'LICENSE' }
-  spec.swift_versions = "5.6"
+  spec.swift_versions = "5.9"
 
   spec.ios.deployment_target = "13.0"
   spec.osx.deployment_target = "10.15"
@@ -23,6 +23,7 @@ Pod::Spec.new do |spec|
   spec.dependency "ConcurrencyExtras", "1.1.0"
   spec.dependency "CustomDump", "1.1.2"
   spec.dependency "Dependencies", "1.2.0"
+  spec.dependency "DependenciesMacros", "1.2.1"
   spec.dependency "IdentifiedCollections", "1.0.0"
   spec.dependency "OrderedCollections", "1.0.6"
   spec.dependency "SwiftUINavigationCore", "1.2.0"
