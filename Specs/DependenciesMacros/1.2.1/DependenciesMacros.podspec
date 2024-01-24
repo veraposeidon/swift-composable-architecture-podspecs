@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/veraposeidon/swift-dependencies.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/DependenciesMacros/**/*.swift"
-  spec.preserve_paths = ["Sources/macros/DependenciesMacrosPlugin"]
+  spec.preserve_path = ["Sources/DependenciesMacros/macros/DependenciesMacrosPlugin"]
   spec.pod_target_xcconfig = {
     'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/DependenciesMacros/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
   }
