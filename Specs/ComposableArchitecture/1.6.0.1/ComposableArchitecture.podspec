@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   # https://github.com/CocoaPods/CocoaPods/pull/11660
   # spec.watchos.deployment_target = "6.0"
 
-  spec.source       = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/veraposeidon/swift-composable-architecture.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/ComposableArchitecture/**/*.swift"
   spec.source_files = "Sources/ComposableArchitectureMacros/**/*.swift"
   # except Documentation.docc
