@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
-  spec.name         = "ComposableArchitecture"
-  spec.version      = "0.47.2"
+  spec.name         = "ConcurrencyExtras"
+  spec.version      = "1.1.0"
   spec.summary      = "The Composable Architecture (TCA, for short) is a library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind. It can be used in SwiftUI, UIKit, and more, and on any Apple platform (iOS, macOS, tvOS, and watchOS)."
-  spec.homepage     = "https://www.pointfree.co/collections/composable-architecture"
+  spec.homepage     = "https://github.com/pointfreeco/swift-concurrency-extras"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
   spec.license      = { type: 'MIT', file: 'LICENSE' }
   spec.swift_versions = "5.6"
@@ -14,13 +14,6 @@ Pod::Spec.new do |spec|
   # https://github.com/CocoaPods/CocoaPods/pull/11660
   # spec.watchos.deployment_target = "6.0"
 
-  spec.source       = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "#{spec.version}" }
-  spec.source_files = "Sources/ComposableArchitecture/**/*.swift"
-  spec.dependency "CasePaths"
-  spec.dependency "CombineSchedulers"
-  spec.dependency "CustomDump"
-  spec.dependency "IdentifiedCollections"
-  spec.dependency "_SwiftUINavigationState"
-  spec.dependency "XCTestDynamicOverlay"
-  spec.dependency "ComposableArchitectureDependencies"
+  spec.source       = { :git => "https://github.com/pointfreeco/swift-concurrency-extras.git", :tag => "#{spec.version}" }
+  spec.source_files = "Sources/ConcurrencyExtras/**/*.swift"
 end

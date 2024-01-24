@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "CustomDump"
-  spec.version      = "0.6.1"
+  spec.version      = "1.1.2"
   spec.summary      = "A collection of tools for debugging, diffing, and testing your application's data structures."
   spec.homepage     = "https://github.com/pointfreeco/swift-custom-dump"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }

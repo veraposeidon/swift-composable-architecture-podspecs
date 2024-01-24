@@ -1,0 +1,20 @@
+package," packageUrl"," dependency"," dependentPackage"," dependentPackageUrl"," exact"
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","CasePaths","swift-case-paths","https://github.com/pointfreeco/swift-case-paths","1.2.1"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","CombineSchedulers","combine-schedulers","https://github.com/pointfreeco/combine-schedulers","1.0.0"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","ConcurrencyExtras","swift-concurrency-extras","https://github.com/pointfreeco/swift-concurrency-extras","1.1.0"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","CustomDump","swift-custom-dump","https://github.com/pointfreeco/swift-custom-dump","1.1.2"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","Dependencies","swift-dependencies","https://github.com/pointfreeco/swift-dependencies","1.2.0"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","IdentifiedCollections","swift-identified-collections","https://github.com/pointfreeco/swift-identified-collections","1.0.0"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","OrderedCollections","swift-collections","https://github.com/apple/swift-collections","1.0.6"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","SwiftUINavigationCore","swiftui-navigation","https://github.com/pointfreeco/swiftui-navigation","1.2.0"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","XCTestDynamicOverlay","xctest-dynamic-overlay","https://github.com/pointfreeco/xctest-dynamic-overlay","1.0.3"
+
+ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","Clocks","swift-clocks","https://github.com/pointfreeco/swift-clocks","1.0.2"

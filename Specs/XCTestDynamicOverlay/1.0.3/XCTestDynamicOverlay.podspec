@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "XCTestDynamicOverlay"
-  spec.version      = "0.6.0"
+  spec.version      = "1.0.3"
   spec.summary      = "Define XCTest assertion helpers directly in your application and library code."
   spec.homepage     = "https://github.com/pointfreeco/xctest-dynamic-overlay"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "IdentifiedCollections"
-  spec.version      = "0.5.0"
+  spec.version      = "1.0.0"
   spec.summary      = "A library of data structures for working with collections of identifiable elements in an ergonomic, performant way."
   spec.homepage     = "https://github.com/pointfreeco/swift-identified-collections"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }

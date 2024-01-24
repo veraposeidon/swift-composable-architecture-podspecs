@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
-  spec.name         = "Clocks"
-  spec.version      = "0.2.0"
-  spec.summary      = "A few clocks that make working with Swift concurrency more testable and more versatile."
-  spec.homepage     = "https://github.com/pointfreeco/swift-clocks"
+  spec.name         = "CasePaths"
+  spec.version      = "1.2.1"
+  spec.summary      = "Case paths bring the power and ergonomics of key paths to enums!"
+  spec.homepage     = "https://github.com/pointfreeco/swift-custom-dump"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
   spec.license      = { type: 'MIT', file: 'LICENSE' }
   spec.swift_versions = "5.6"
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   # https://github.com/CocoaPods/CocoaPods/pull/11660
   # spec.watchos.deployment_target = "6.0"
 
-  spec.source       = { :git => "https://github.com/pointfreeco/swift-clocks.git", :tag => "#{spec.version}" }
-  spec.source_files = "Sources/Clocks/**/*.swift"
+  spec.source       = { :git => "https://github.com/pointfreeco/swift-case-paths.git", :tag => "#{spec.version}" }
+  spec.source_files  = "Sources/CasePaths/**/*.swift"
   spec.dependency "XCTestDynamicOverlay"
 end

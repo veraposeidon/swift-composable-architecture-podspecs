@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
-  spec.name         = "CombineSchedulers"
-  spec.version      = "0.9.1"
-  spec.summary      = "A few schedulers that make working with Combine more testable and more versatile."
-  spec.homepage     = "https://github.com/pointfreeco/combine-schedulers"
+  spec.name         = "Clocks"
+  spec.version      = "1.0.2"
+  spec.summary      = "A few clocks that make working with Swift concurrency more testable and more versatile."
+  spec.homepage     = "https://github.com/pointfreeco/swift-clocks"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
   spec.license      = { type: 'MIT', file: 'LICENSE' }
   spec.swift_versions = "5.6"
@@ -14,7 +14,8 @@ Pod::Spec.new do |spec|
   # https://github.com/CocoaPods/CocoaPods/pull/11660
   # spec.watchos.deployment_target = "6.0"
 
-  spec.source       = { :git => "https://github.com/pointfreeco/combine-schedulers.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Sources/CombineSchedulers/**/*.swift"
+  spec.source       = { :git => "https://github.com/pointfreeco/swift-clocks.git", :tag => "#{spec.version}" }
+  spec.source_files = "Sources/Clocks/**/*.swift"
   spec.dependency "XCTestDynamicOverlay"
+  spec.dependency "ConcurrencyExtras"
 end
