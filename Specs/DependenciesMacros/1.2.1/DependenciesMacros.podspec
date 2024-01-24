@@ -15,10 +15,10 @@ Pod::Spec.new do |spec|
   spec.source_files = "Sources/DependenciesMacros/**/*.swift"
   spec.preserve_path = ["Sources/DependenciesMacros/macros/DependenciesMacrosPlugin"]
   spec.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/DependenciesMacros/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/Sources/DependenciesMacros/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
   }
   spec.user_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/DependenciesMacros/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/Sources/DependenciesMacros/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
   }
 
   spec.dependency "XCTestDynamicOverlay"
