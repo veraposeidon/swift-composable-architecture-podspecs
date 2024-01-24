@@ -16,6 +16,8 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/ComposableArchitecture/**/*.swift"
+  # except Documentation.docc
+  spec.exclude_files = "Sources/ComposableArchitecture/Documentation.docc/**/*"
   spec.dependency "CasePaths", "1.2.1"
   spec.dependency "CombineSchedulers", "1.0.0"
   spec.dependency "ConcurrencyExtras", "1.1.0"
