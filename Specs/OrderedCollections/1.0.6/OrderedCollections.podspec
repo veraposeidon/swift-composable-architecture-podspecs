@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "OrderedCollections"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.6"
   spec.summary      = "Swift Collections is an open-source package of data structure implementations for the Swift programming language."
   spec.homepage     = "https://github.com/apple/swift-collections"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
