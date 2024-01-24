@@ -16,16 +16,14 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/veraposeidon/swift-composable-architecture.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/ComposableArchitecture/**/*.swift"
-  spec.source_files = "Sources/ComposableArchitectureMacros/**/*.swift"
   # except Documentation.docc
   spec.exclude_files = "Sources/ComposableArchitecture/Documentation.docc/**/*"
-  spec.exclude_files = "Sources/ComposableArchitectureMacros/Plugins.swift"
-  spec.preserve_path = ["Sources/ComposableArchitectureMacros/macros/ComposableArchitectureMacros"]
+  spec.preserve_path = ["Sources/macros/ComposableArchitectureMacros"]
   spec.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/ComposableArchitecture/Sources/ComposableArchitectureMacros/macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/ComposableArchitecture/Sources/macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
   }
   spec.user_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/ComposableArchitecture/Sources/ComposableArchitectureMacros/macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/ComposableArchitecture/Sources/macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
   }
 
   spec.dependency "CasePaths", "1.2.1"

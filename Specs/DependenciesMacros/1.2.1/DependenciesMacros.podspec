@@ -12,13 +12,13 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target = "13.0"
 
   spec.source       = { :git => "https://github.com/veraposeidon/swift-dependencies.git", :tag => "#{spec.version}" }
-  spec.source_files = "Sources/DependenciesMacros/**/*.swift"
-  spec.preserve_path = ["Sources/DependenciesMacros/macros/DependenciesMacrosPlugin"]
+  spec.source_files = "Sources/DependenciesMacros/Macros.swift"
+  spec.preserve_path = ["Sources/macros/DependenciesMacrosPlugin"]
   spec.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/Sources/DependenciesMacros/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/Sources/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
   }
   spec.user_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/Sources/DependenciesMacros/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/DependenciesMacros/Sources/macros/DependenciesMacrosPlugin#DependenciesMacrosPlugin'
   }
 
   spec.dependency "XCTestDynamicOverlay"
