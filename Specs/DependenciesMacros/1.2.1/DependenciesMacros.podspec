@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "DependenciesMacros"
-  spec.version      = "1.2.0"
+  spec.version      = "1.2.1"
   spec.summary      = "A collection of tools for debugging, diffing, and testing your application's data structures."
   spec.homepage     = "https://github.com/pointfreeco/swift-dependencies"
   spec.author       = { "Zsolt Kovacs" => "blog@ismoth.com" }
