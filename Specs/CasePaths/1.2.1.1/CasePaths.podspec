@@ -16,12 +16,12 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/veraposeidon/swift-case-paths.git", :tag => "#{spec.version}" }
   spec.source_files  = "Sources/CasePaths/**/*.swift"
-  spec.preserve_path = ["Sources/macros/CasePaths"]
+  spec.preserve_path = ["Sources/macros/CasePathsMacros"]
   spec.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/CasePaths/Sources/macros/CasePaths#CasePaths'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/CasePaths/Sources/macros/CasePathsMacros#CasePathsMacros'
   }
   spec.user_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/CasePaths/Sources/macros/CasePaths#CasePaths'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/CasePaths/Sources/macros/CasePathsMacros#CasePathsMacros'
   }
   spec.dependency "XCTestDynamicOverlay"
 end
