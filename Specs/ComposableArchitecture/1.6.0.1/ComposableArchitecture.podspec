@@ -19,12 +19,12 @@ Pod::Spec.new do |spec|
   # except Documentation.docc
   spec.exclude_files = "Sources/ComposableArchitecture/Documentation.docc/**/*"
   spec.preserve_path = ["Sources/macros/ComposableArchitectureMacros"]
-  spec.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
-  }
-  spec.user_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
-  }
+  # spec.pod_target_xcconfig = {
+  #   'OTHER_SWIFT_FLAGS' => '-load-plugin-executable macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
+  # }
+  # spec.user_target_xcconfig = {
+  #   'OTHER_SWIFT_FLAGS' => '-load-plugin-executable macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
+  # }
 
   spec.dependency "CasePaths", "1.2.1"
   spec.dependency "CombineSchedulers", "1.0.0"
