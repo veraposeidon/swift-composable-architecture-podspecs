@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
     'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/ComposableArchitecture/Sources/macros/ComposableArchitectureMacros#ComposableArchitectureMacros'
   }
 
-  spec.dependency "CasePaths", "1.2.1"
+  spec.dependency "CasePaths", "1.2.1.1"
   spec.dependency "CombineSchedulers", "1.0.0"
   spec.dependency "ConcurrencyExtras", "1.1.0"
   spec.dependency "CustomDump", "1.1.2"
