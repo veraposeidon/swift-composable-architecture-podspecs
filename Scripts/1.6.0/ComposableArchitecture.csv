@@ -20,3 +20,5 @@ ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architec
 ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","XCTestDynamicOverlay","xctest-dynamic-overlay","https://github.com/pointfreeco/xctest-dynamic-overlay","1.0.3"
 
 ComposableArchitecture,"https://github.com/pointfreeco/swift-composable-architecture","Clocks","swift-clocks","https://github.com/pointfreeco/swift-clocks","1.0.2"
+
+ComposableArchitectureMacros,"https://github.com/pointfreeco/swift-composable-architecture","SwiftSyntaxMacros","swift-syntax","https://github.com/apple/swift-syntax","590."
